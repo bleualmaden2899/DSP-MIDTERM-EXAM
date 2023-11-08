@@ -1,0 +1,3806 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>840042d57b2c44309cdd323faabe1d9f</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell code" id="eGciq8fT6IVC">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:74}"
+id="1V15VP7aR6Ub" data-outputId="1b3e20a2-eb01-4c02-8e77-a83eb56584e7">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> google.colab <span class="im">import</span> files</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>uploaded <span class="op">=</span> files.upload()</span></code></pre></div>
+<div class="output display_data">
+
+     <input type="file" id="files-42d27b84-af1b-4bc1-93ae-fa24eec8bd0d" name="files[]" multiple disabled
+        style="border:none" />
+     <output id="result-42d27b84-af1b-4bc1-93ae-fa24eec8bd0d">
+      Upload widget is only available when the cell has been executed in the
+      current browser session. Please rerun this cell to enable.
+      </output>
+      <script>// Copyright 2017 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+/**
+ * @fileoverview Helpers for google.colab Python module.
+ */
+(function(scope) {
+function span(text, styleAttributes = {}) {
+  const element = document.createElement('span');
+  element.textContent = text;
+  for (const key of Object.keys(styleAttributes)) {
+    element.style[key] = styleAttributes[key];
+  }
+  return element;
+}
+
+// Max number of bytes which will be uploaded at a time.
+const MAX_PAYLOAD_SIZE = 100 * 1024;
+
+function _uploadFiles(inputId, outputId) {
+  const steps = uploadFilesStep(inputId, outputId);
+  const outputElement = document.getElementById(outputId);
+  // Cache steps on the outputElement to make it available for the next call
+  // to uploadFilesContinue from Python.
+  outputElement.steps = steps;
+
+  return _uploadFilesContinue(outputId);
+}
+
+// This is roughly an async generator (not supported in the browser yet),
+// where there are multiple asynchronous steps and the Python side is going
+// to poll for completion of each step.
+// This uses a Promise to block the python side on completion of each step,
+// then passes the result of the previous step as the input to the next step.
+function _uploadFilesContinue(outputId) {
+  const outputElement = document.getElementById(outputId);
+  const steps = outputElement.steps;
+
+  const next = steps.next(outputElement.lastPromiseValue);
+  return Promise.resolve(next.value.promise).then((value) => {
+    // Cache the last promise value to make it available to the next
+    // step of the generator.
+    outputElement.lastPromiseValue = value;
+    return next.value.response;
+  });
+}
+
+/**
+ * Generator function which is called between each async step of the upload
+ * process.
+ * @param {string} inputId Element ID of the input file picker element.
+ * @param {string} outputId Element ID of the output display.
+ * @return {!Iterable<!Object>} Iterable of next steps.
+ */
+function* uploadFilesStep(inputId, outputId) {
+  const inputElement = document.getElementById(inputId);
+  inputElement.disabled = false;
+
+  const outputElement = document.getElementById(outputId);
+  outputElement.innerHTML = '';
+
+  const pickedPromise = new Promise((resolve) => {
+    inputElement.addEventListener('change', (e) => {
+      resolve(e.target.files);
+    });
+  });
+
+  const cancel = document.createElement('button');
+  inputElement.parentElement.appendChild(cancel);
+  cancel.textContent = 'Cancel upload';
+  const cancelPromise = new Promise((resolve) => {
+    cancel.onclick = () => {
+      resolve(null);
+    };
+  });
+
+  // Wait for the user to pick the files.
+  const files = yield {
+    promise: Promise.race([pickedPromise, cancelPromise]),
+    response: {
+      action: 'starting',
+    }
+  };
+
+  cancel.remove();
+
+  // Disable the input element since further picks are not allowed.
+  inputElement.disabled = true;
+
+  if (!files) {
+    return {
+      response: {
+        action: 'complete',
+      }
+    };
+  }
+
+  for (const file of files) {
+    const li = document.createElement('li');
+    li.append(span(file.name, {fontWeight: 'bold'}));
+    li.append(span(
+        `(${file.type || 'n/a'}) - ${file.size} bytes, ` +
+        `last modified: ${
+            file.lastModifiedDate ? file.lastModifiedDate.toLocaleDateString() :
+                                    'n/a'} - `));
+    const percent = span('0% done');
+    li.appendChild(percent);
+
+    outputElement.appendChild(li);
+
+    const fileDataPromise = new Promise((resolve) => {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        resolve(e.target.result);
+      };
+      reader.readAsArrayBuffer(file);
+    });
+    // Wait for the data to be ready.
+    let fileData = yield {
+      promise: fileDataPromise,
+      response: {
+        action: 'continue',
+      }
+    };
+
+    // Use a chunked sending to avoid message size limits. See b/62115660.
+    let position = 0;
+    do {
+      const length = Math.min(fileData.byteLength - position, MAX_PAYLOAD_SIZE);
+      const chunk = new Uint8Array(fileData, position, length);
+      position += length;
+
+      const base64 = btoa(String.fromCharCode.apply(null, chunk));
+      yield {
+        response: {
+          action: 'append',
+          file: file.name,
+          data: base64,
+        },
+      };
+
+      let percentDone = fileData.byteLength === 0 ?
+          100 :
+          Math.round((position / fileData.byteLength) * 100);
+      percent.textContent = `${percentDone}% done`;
+
+    } while (position < fileData.byteLength);
+  }
+
+  // All done.
+  yield {
+    response: {
+      action: 'complete',
+    }
+  };
+}
+
+scope.google = scope.google || {};
+scope.google.colab = scope.google.colab || {};
+scope.google.colab._files = {
+  _uploadFiles,
+  _uploadFilesContinue,
+};
+})(self);
+</script> 
+</div>
+<div class="output stream stdout">
+<pre><code>Saving WEEKLY_NEW.csv to WEEKLY_NEW.csv
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:790}"
+id="unP8yxmV7Gx4" data-outputId="ebeda431-f4e2-478a-cc26-7b81c5ccbf26">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">&#39;/content/daily_data.csv&#39;</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>df</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+
+  <div id="df-6bc2c826-8fa8-4c90-bc2d-b86fb48cbeac" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>STATION</th>
+      <th>DATE</th>
+      <th>REPORT_TYPE</th>
+      <th>SOURCE</th>
+      <th>BackupElements</th>
+      <th>BackupElevation</th>
+      <th>BackupEquipment</th>
+      <th>BackupLatitude</th>
+      <th>BackupLongitude</th>
+      <th>BackupName</th>
+      <th>...</th>
+      <th>DailyPeakWindDirection</th>
+      <th>DailyPeakWindSpeed</th>
+      <th>DailyPrecipitation</th>
+      <th>DailySnowDepth</th>
+      <th>DailySnowfall</th>
+      <th>DailySustainedWindDirection</th>
+      <th>DailySustainedWindSpeed</th>
+      <th>Sunrise</th>
+      <th>Sunset</th>
+      <th>WindEquipmentChangeDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>72518014735</td>
+      <td>2015-01-01T23:59:00</td>
+      <td>SOD</td>
+      <td>6</td>
+      <td>PRECIP</td>
+      <td>260</td>
+      <td>PLASTIC</td>
+      <td>42.6918</td>
+      <td>-73.83109</td>
+      <td>NWS ALBANY, NY</td>
+      <td>...</td>
+      <td>190.0</td>
+      <td>26.0</td>
+      <td>0.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>190.0</td>
+      <td>20.0</td>
+      <td>726.0</td>
+      <td>1632.0</td>
+      <td>2006-09-08</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>72518014735</td>
+      <td>2015-01-02T23:59:00</td>
+      <td>SOD</td>
+      <td>6</td>
+      <td>PRECIP</td>
+      <td>260</td>
+      <td>PLASTIC</td>
+      <td>42.6918</td>
+      <td>-73.83109</td>
+      <td>NWS ALBANY, NY</td>
+      <td>...</td>
+      <td>250.0</td>
+      <td>30.0</td>
+      <td>T</td>
+      <td>0.0</td>
+      <td>T</td>
+      <td>310.0</td>
+      <td>23.0</td>
+      <td>726.0</td>
+      <td>1633.0</td>
+      <td>2006-09-08</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>72518014735</td>
+      <td>2015-01-03T23:59:00</td>
+      <td>SOD</td>
+      <td>6</td>
+      <td>PRECIP</td>
+      <td>260</td>
+      <td>PLASTIC</td>
+      <td>42.6918</td>
+      <td>-73.83109</td>
+      <td>NWS ALBANY, NY</td>
+      <td>...</td>
+      <td>170.0</td>
+      <td>21.0</td>
+      <td>0.57</td>
+      <td>0.0</td>
+      <td>1.6</td>
+      <td>160.0</td>
+      <td>15.0</td>
+      <td>726.0</td>
+      <td>1634.0</td>
+      <td>2006-09-08</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>72518014735</td>
+      <td>2015-01-04T23:59:00</td>
+      <td>SOD</td>
+      <td>6</td>
+      <td>PRECIP</td>
+      <td>260</td>
+      <td>PLASTIC</td>
+      <td>42.6918</td>
+      <td>-73.83109</td>
+      <td>NWS ALBANY, NY</td>
+      <td>...</td>
+      <td>290.0</td>
+      <td>33.0</td>
+      <td>0.22</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>290.0</td>
+      <td>24.0</td>
+      <td>726.0</td>
+      <td>1635.0</td>
+      <td>2006-09-08</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>72518014735</td>
+      <td>2015-01-05T23:59:00</td>
+      <td>SOD</td>
+      <td>6</td>
+      <td>PRECIP</td>
+      <td>260</td>
+      <td>PLASTIC</td>
+      <td>42.6918</td>
+      <td>-73.83109</td>
+      <td>NWS ALBANY, NY</td>
+      <td>...</td>
+      <td>280.0</td>
+      <td>42.0</td>
+      <td>T</td>
+      <td>0.0</td>
+      <td>T</td>
+      <td>290.0</td>
+      <td>32.0</td>
+      <td>726.0</td>
+      <td>1636.0</td>
+      <td>2006-09-08</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>2663</th>
+      <td>72518014735</td>
+      <td>2022-05-27T23:59:00</td>
+      <td>SOD</td>
+      <td>6</td>
+      <td>PRECIP</td>
+      <td>260</td>
+      <td>PLASTIC</td>
+      <td>42.6812</td>
+      <td>-73.81650</td>
+      <td>NWS ALBANY, NY</td>
+      <td>...</td>
+      <td>160.0</td>
+      <td>28.0</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>160.0</td>
+      <td>21.0</td>
+      <td>423.0</td>
+      <td>1922.0</td>
+      <td>2006-09-08</td>
+    </tr>
+    <tr>
+      <th>2664</th>
+      <td>72518014735</td>
+      <td>2022-05-28T23:59:00</td>
+      <td>SOD</td>
+      <td>6</td>
+      <td>PRECIP</td>
+      <td>260</td>
+      <td>PLASTIC</td>
+      <td>42.6812</td>
+      <td>-73.81650</td>
+      <td>NWS ALBANY, NY</td>
+      <td>...</td>
+      <td>310.0</td>
+      <td>26.0</td>
+      <td>0.04</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>310.0</td>
+      <td>22.0</td>
+      <td>422.0</td>
+      <td>1923.0</td>
+      <td>2006-09-08</td>
+    </tr>
+    <tr>
+      <th>2665</th>
+      <td>72518014735</td>
+      <td>2022-05-29T23:59:00</td>
+      <td>SOD</td>
+      <td>6</td>
+      <td>PRECIP</td>
+      <td>260</td>
+      <td>PLASTIC</td>
+      <td>42.6812</td>
+      <td>-73.81650</td>
+      <td>NWS ALBANY, NY</td>
+      <td>...</td>
+      <td>90.0</td>
+      <td>13.0</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>180.0</td>
+      <td>9.0</td>
+      <td>421.0</td>
+      <td>1924.0</td>
+      <td>2006-09-08</td>
+    </tr>
+    <tr>
+      <th>2666</th>
+      <td>72518014735</td>
+      <td>2022-05-30T23:59:00</td>
+      <td>SOD</td>
+      <td>6</td>
+      <td>PRECIP</td>
+      <td>260</td>
+      <td>PLASTIC</td>
+      <td>42.6812</td>
+      <td>-73.81650</td>
+      <td>NWS ALBANY, NY</td>
+      <td>...</td>
+      <td>200.0</td>
+      <td>15.0</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>190.0</td>
+      <td>12.0</td>
+      <td>421.0</td>
+      <td>1925.0</td>
+      <td>2006-09-08</td>
+    </tr>
+    <tr>
+      <th>2667</th>
+      <td>72518014735</td>
+      <td>2022-05-31T23:59:00</td>
+      <td>SOD</td>
+      <td>6</td>
+      <td>PRECIP</td>
+      <td>260</td>
+      <td>PLASTIC</td>
+      <td>42.6812</td>
+      <td>-73.81650</td>
+      <td>NWS ALBANY, NY</td>
+      <td>...</td>
+      <td>250.0</td>
+      <td>29.0</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>250.0</td>
+      <td>21.0</td>
+      <td>420.0</td>
+      <td>1926.0</td>
+      <td>2006-09-08</td>
+    </tr>
+  </tbody>
+</table>
+<p>2668 rows × 32 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-6bc2c826-8fa8-4c90-bc2d-b86fb48cbeac')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-6bc2c826-8fa8-4c90-bc2d-b86fb48cbeac button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-6bc2c826-8fa8-4c90-bc2d-b86fb48cbeac');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-d98d4db9-19d0-4a23-9a6c-50b5890a8533">
+  <button class="colab-df-quickchart" onclick="quickchart('df-d98d4db9-19d0-4a23-9a6c-50b5890a8533')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-d98d4db9-19d0-4a23-9a6c-50b5890a8533 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:349}"
+id="czRfgLhc7KHJ" data-outputId="cb26685a-1e33-4d43-8c6d-4abed422bf02">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>df.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+
+  <div id="df-9d6182a9-f966-4c93-8efa-f09542de095c" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>STATION</th>
+      <th>SOURCE</th>
+      <th>BackupElevation</th>
+      <th>BackupLatitude</th>
+      <th>BackupLongitude</th>
+      <th>DailyAverageDewPointTemperature</th>
+      <th>DailyAverageDryBulbTemperature</th>
+      <th>DailyAverageRelativeHumidity</th>
+      <th>DailyAverageSeaLevelPressure</th>
+      <th>DailyAverageStationPressure</th>
+      <th>...</th>
+      <th>DailyDepartureFromNormalAverageTemperature</th>
+      <th>DailyHeatingDegreeDays</th>
+      <th>DailyMaximumDryBulbTemperature</th>
+      <th>DailyMinimumDryBulbTemperature</th>
+      <th>DailyPeakWindDirection</th>
+      <th>DailyPeakWindSpeed</th>
+      <th>DailySustainedWindDirection</th>
+      <th>DailySustainedWindSpeed</th>
+      <th>Sunrise</th>
+      <th>Sunset</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>2.668000e+03</td>
+      <td>2668.0</td>
+      <td>2668.0</td>
+      <td>2668.000000</td>
+      <td>2668.000000</td>
+      <td>2668.000000</td>
+      <td>2668.000000</td>
+      <td>2668.000000</td>
+      <td>2668.000000</td>
+      <td>2668.000000</td>
+      <td>...</td>
+      <td>2668.000000</td>
+      <td>2668.000000</td>
+      <td>2668.000000</td>
+      <td>2668.000000</td>
+      <td>2668.000000</td>
+      <td>2668.000000</td>
+      <td>2668.000000</td>
+      <td>2668.000000</td>
+      <td>2668.000000</td>
+      <td>2668.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>7.251801e+10</td>
+      <td>6.0</td>
+      <td>260.0</td>
+      <td>42.689750</td>
+      <td>-73.828268</td>
+      <td>38.217766</td>
+      <td>50.107571</td>
+      <td>66.085082</td>
+      <td>30.031945</td>
+      <td>29.709059</td>
+      <td>...</td>
+      <td>2.155660</td>
+      <td>17.040480</td>
+      <td>59.418666</td>
+      <td>40.299100</td>
+      <td>222.387556</td>
+      <td>25.513493</td>
+      <td>223.924288</td>
+      <td>19.023238</td>
+      <td>563.145427</td>
+      <td>1783.491004</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>0.000000e+00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004187</td>
+      <td>0.005764</td>
+      <td>19.116250</td>
+      <td>18.747310</td>
+      <td>13.401359</td>
+      <td>0.223771</td>
+      <td>0.220846</td>
+      <td>...</td>
+      <td>8.202932</td>
+      <td>16.134205</td>
+      <td>20.003706</td>
+      <td>18.122395</td>
+      <td>90.828564</td>
+      <td>9.436276</td>
+      <td>90.846564</td>
+      <td>6.942113</td>
+      <td>108.536855</td>
+      <td>111.230222</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>7.251801e+10</td>
+      <td>6.0</td>
+      <td>260.0</td>
+      <td>42.681200</td>
+      <td>-73.831090</td>
+      <td>-19.000000</td>
+      <td>-3.000000</td>
+      <td>24.000000</td>
+      <td>29.240000</td>
+      <td>28.890000</td>
+      <td>...</td>
+      <td>-28.700000</td>
+      <td>0.000000</td>
+      <td>5.000000</td>
+      <td>-13.000000</td>
+      <td>10.000000</td>
+      <td>6.000000</td>
+      <td>10.000000</td>
+      <td>5.000000</td>
+      <td>416.000000</td>
+      <td>1621.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>7.251801e+10</td>
+      <td>6.0</td>
+      <td>260.0</td>
+      <td>42.691800</td>
+      <td>-73.831090</td>
+      <td>24.000000</td>
+      <td>35.000000</td>
+      <td>57.000000</td>
+      <td>29.880000</td>
+      <td>29.570000</td>
+      <td>...</td>
+      <td>-3.200000</td>
+      <td>0.000000</td>
+      <td>42.000000</td>
+      <td>27.000000</td>
+      <td>170.000000</td>
+      <td>19.000000</td>
+      <td>170.000000</td>
+      <td>14.000000</td>
+      <td>447.000000</td>
+      <td>1658.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>7.251801e+10</td>
+      <td>6.0</td>
+      <td>260.0</td>
+      <td>42.691800</td>
+      <td>-73.831090</td>
+      <td>38.000000</td>
+      <td>51.000000</td>
+      <td>66.000000</td>
+      <td>30.020000</td>
+      <td>29.700000</td>
+      <td>...</td>
+      <td>1.900000</td>
+      <td>14.000000</td>
+      <td>60.000000</td>
+      <td>40.000000</td>
+      <td>260.000000</td>
+      <td>24.000000</td>
+      <td>270.000000</td>
+      <td>18.000000</td>
+      <td>547.000000</td>
+      <td>1805.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>7.251801e+10</td>
+      <td>6.0</td>
+      <td>260.0</td>
+      <td>42.691800</td>
+      <td>-73.831090</td>
+      <td>55.000000</td>
+      <td>67.000000</td>
+      <td>76.000000</td>
+      <td>30.180000</td>
+      <td>29.850000</td>
+      <td>...</td>
+      <td>7.200000</td>
+      <td>30.000000</td>
+      <td>77.000000</td>
+      <td>55.250000</td>
+      <td>290.000000</td>
+      <td>31.000000</td>
+      <td>290.000000</td>
+      <td>23.000000</td>
+      <td>650.000000</td>
+      <td>1905.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>7.251801e+10</td>
+      <td>6.0</td>
+      <td>260.0</td>
+      <td>42.691800</td>
+      <td>-73.816500</td>
+      <td>73.000000</td>
+      <td>87.000000</td>
+      <td>100.000000</td>
+      <td>30.740000</td>
+      <td>30.420000</td>
+      <td>...</td>
+      <td>34.700000</td>
+      <td>68.000000</td>
+      <td>97.000000</td>
+      <td>77.000000</td>
+      <td>360.000000</td>
+      <td>70.000000</td>
+      <td>360.000000</td>
+      <td>67.000000</td>
+      <td>726.000000</td>
+      <td>1938.000000</td>
+    </tr>
+  </tbody>
+</table>
+<p>8 rows × 23 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-9d6182a9-f966-4c93-8efa-f09542de095c')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-9d6182a9-f966-4c93-8efa-f09542de095c button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-9d6182a9-f966-4c93-8efa-f09542de095c');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-733fc1a4-577b-4fb6-9801-cb4f533b2a20">
+  <button class="colab-df-quickchart" onclick="quickchart('df-733fc1a4-577b-4fb6-9801-cb4f533b2a20')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-733fc1a4-577b-4fb6-9801-cb4f533b2a20 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:663}"
+id="85y5CSeMVZZU" data-outputId="360de04b-3624-4bb5-f704-17d5b3194b68">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#TIME SERIES PLOT FOR THE WHOLE DATA SET</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>Col_DP <span class="op">=</span> df[[<span class="st">&#39;DATE&#39;</span>, <span class="st">&#39;DailyPrecipitation&#39;</span>]]</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>Col_DP[<span class="st">&#39;DATE&#39;</span>] <span class="op">=</span> pd.to_datetime(Col_DP[<span class="st">&#39;DATE&#39;</span>])</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">6</span>))</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>plt.plot(Col_DP[<span class="st">&#39;DATE&#39;</span>], Col_DP[<span class="st">&#39;DailyPrecipitation&#39;</span>], color<span class="op">=</span><span class="st">&#39;b&#39;</span>)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Date&#39;</span>)</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Value&#39;</span>)</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Time Series Plot of Precipitation&#39;</span>)</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-31-4dffab06c374&gt;:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Col_DP[&#39;DATE&#39;] = pd.to_datetime(Col_DP[&#39;DATE&#39;])
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/c78e67a8d9f635569975a46d29d0fcf712e1b1b4.png" /></p>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="6xMUAegcypB9" data-outputId="92fb4794-b625-4efb-ab4e-47cc1b98c2ad">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#TIME SERIES PLOT PER YEAR</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>Col_DP[<span class="st">&#39;DATE&#39;</span>] <span class="op">=</span> pd.to_datetime(Col_DP[<span class="st">&#39;DATE&#39;</span>])</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>grouped <span class="op">=</span> Col_DP.groupby(Col_DP[<span class="st">&#39;DATE&#39;</span>].dt.year)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> year, group <span class="kw">in</span> grouped:</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>    plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">6</span>))</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>    plt.plot(group[<span class="st">&#39;DATE&#39;</span>], group[<span class="st">&#39;DailyPrecipitation&#39;</span>], color<span class="op">=</span><span class="st">&#39;b&#39;</span>)</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">&#39;Date&#39;</span>)</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">&#39;Value&#39;</span>)</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f&#39;Time Series Plot of Precipitation for Year </span><span class="sc">{</span>year<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>    plt.grid(<span class="va">True</span>)</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-29-7cfba9089a97&gt;:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Col_DP[&#39;DATE&#39;] = pd.to_datetime(Col_DP[&#39;DATE&#39;])
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/dffc29fc589115111fbd859badd396c121b4e57c.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/5a19226924306d2f17b954cfffd37d9ec2a05c77.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/78bf95be1a211fa3b62f35ff8abef6d304497577.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/9699bb98581fba2fbef6692ab22c3e2076b263af.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/ed35ed1796be305852742e660336f08af3193382.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/cf66d04aae3fb3604f5879640f51a09c0b3cfa3f.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/58a3e3e9d0f7ce0d400b7a81d3084d0ab130f051.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/63faaf8075b60d99ff192f9ecf6c0242a9ffce78.png" /></p>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="B8DsE58__NBh" data-outputId="fbf24e55-344f-4e81-f7fd-05107bccc39c">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#MEAN</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>DailyPrecipitation <span class="op">=</span> <span class="st">&quot;DailyPrecipitation&quot;</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>df[DailyPrecipitation] <span class="op">=</span> pd.to_numeric(df[DailyPrecipitation], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>mean_value <span class="op">=</span> df[DailyPrecipitation].mean()</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Mean of </span><span class="sc">{</span>DailyPrecipitation<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>mean_value<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Mean of DailyPrecipitation: 0.14016540642722117
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="ae9HmGl1AnY3" data-outputId="312141e9-a61f-4854-9427-13bcad3789fd">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">#MEDIAN</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>median_value <span class="op">=</span> df[DailyPrecipitation].median()</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Median of </span><span class="sc">{</span>DailyPrecipitation<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>median_value<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Median of DailyPrecipitation: 0.0
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="6v5s07pbAuKP" data-outputId="92d901dc-dff3-4f84-b96b-6ed80b344d0d">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co">#STANDARD DEVIATION</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>std_deviation_value <span class="op">=</span> df[DailyPrecipitation].std()</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Standard Deviation of </span><span class="sc">{</span>DailyPrecipitation<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>std_deviation_value<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Standard Deviation of DailyPrecipitation: 0.30086372283805934
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="2XeCl7-hKhi_">
+<h1>HOURLY DATA</h1>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:827}"
+id="d8VmRrUH9ISf" data-outputId="509222d7-0a0f-45f0-dc20-69aeca918b77">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>df1 <span class="op">=</span> pd.read_csv(<span class="st">&#39;/content/hourly_data.csv&#39;</span>)</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>df1</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-12-092687b190dc&gt;:1: DtypeWarning: Columns (11,12) have mixed types. Specify dtype option on import or set low_memory=False.
+  df1 = pd.read_csv(&#39;/content/hourly_data.csv&#39;)
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="12">
+
+  <div id="df-0f25c594-eb1c-4816-be4a-73f5e7f5709f" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>STATION</th>
+      <th>DATE</th>
+      <th>REPORT_TYPE</th>
+      <th>SOURCE</th>
+      <th>BackupElements</th>
+      <th>BackupElevation</th>
+      <th>BackupEquipment</th>
+      <th>BackupLatitude</th>
+      <th>BackupLongitude</th>
+      <th>BackupName</th>
+      <th>...</th>
+      <th>HourlyDryBulbTemperature</th>
+      <th>HourlyPrecipitation</th>
+      <th>HourlyRelativeHumidity</th>
+      <th>HourlySeaLevelPressure</th>
+      <th>HourlyStationPressure</th>
+      <th>HourlyVisibility</th>
+      <th>HourlyWetBulbTemperature</th>
+      <th>HourlyWindDirection</th>
+      <th>HourlyWindSpeed</th>
+      <th>WindEquipmentChangeDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>72518014735</td>
+      <td>2015-01-01T00:51:00</td>
+      <td>FM-15</td>
+      <td>7</td>
+      <td>PRECIP</td>
+      <td>260</td>
+      <td>PLASTIC</td>
+      <td>42.6918</td>
+      <td>-73.83109</td>
+      <td>NWS ALBANY, NY</td>
+      <td>...</td>
+      <td>22</td>
+      <td>0</td>
+      <td>46</td>
+      <td>30.05</td>
+      <td>29.72</td>
+      <td>10.0</td>
+      <td>18</td>
+      <td>150</td>
+      <td>10</td>
+      <td>9/8/2006</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>72518014735</td>
+      <td>2015-01-01T01:51:00</td>
+      <td>FM-15</td>
+      <td>7</td>
+      <td>PRECIP</td>
+      <td>260</td>
+      <td>PLASTIC</td>
+      <td>42.6918</td>
+      <td>-73.83109</td>
+      <td>NWS ALBANY, NY</td>
+      <td>...</td>
+      <td>22</td>
+      <td>0</td>
+      <td>48</td>
+      <td>30.04</td>
+      <td>29.71</td>
+      <td>10.0</td>
+      <td>18</td>
+      <td>170</td>
+      <td>8</td>
+      <td>9/8/2006</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>72518014735</td>
+      <td>2015-01-01T02:51:00</td>
+      <td>FM-15</td>
+      <td>7</td>
+      <td>PRECIP</td>
+      <td>260</td>
+      <td>PLASTIC</td>
+      <td>42.6918</td>
+      <td>-73.83109</td>
+      <td>NWS ALBANY, NY</td>
+      <td>...</td>
+      <td>20</td>
+      <td>0</td>
+      <td>52</td>
+      <td>30.03</td>
+      <td>29.7</td>
+      <td>10.0</td>
+      <td>16</td>
+      <td>180</td>
+      <td>6</td>
+      <td>9/8/2006</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>72518014735</td>
+      <td>2015-01-01T03:51:00</td>
+      <td>FM-15</td>
+      <td>7</td>
+      <td>PRECIP</td>
+      <td>260</td>
+      <td>PLASTIC</td>
+      <td>42.6918</td>
+      <td>-73.83109</td>
+      <td>NWS ALBANY, NY</td>
+      <td>...</td>
+      <td>19</td>
+      <td>0</td>
+      <td>57</td>
+      <td>30.03</td>
+      <td>29.7</td>
+      <td>10.0</td>
+      <td>16</td>
+      <td>190</td>
+      <td>7</td>
+      <td>9/8/2006</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>72518014735</td>
+      <td>2015-01-01T04:51:00</td>
+      <td>FM-15</td>
+      <td>7</td>
+      <td>PRECIP</td>
+      <td>260</td>
+      <td>PLASTIC</td>
+      <td>42.6918</td>
+      <td>-73.83109</td>
+      <td>NWS ALBANY, NY</td>
+      <td>...</td>
+      <td>21</td>
+      <td>0</td>
+      <td>52</td>
+      <td>30.04</td>
+      <td>29.71</td>
+      <td>10.0</td>
+      <td>17</td>
+      <td>170</td>
+      <td>8</td>
+      <td>9/8/2006</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>64724</th>
+      <td>72518014735</td>
+      <td>2022-05-31T19:51:00</td>
+      <td>FM-15</td>
+      <td>7</td>
+      <td>PRECIP</td>
+      <td>260</td>
+      <td>PLASTIC</td>
+      <td>42.6812</td>
+      <td>-73.81650</td>
+      <td>NWS ALBANY, NY</td>
+      <td>...</td>
+      <td>76</td>
+      <td>0</td>
+      <td>62</td>
+      <td>29.91</td>
+      <td>29.61</td>
+      <td>10.0</td>
+      <td>67</td>
+      <td>360</td>
+      <td>10</td>
+      <td>9/8/2006</td>
+    </tr>
+    <tr>
+      <th>64725</th>
+      <td>72518014735</td>
+      <td>2022-05-31T20:51:00</td>
+      <td>FM-15</td>
+      <td>7</td>
+      <td>PRECIP</td>
+      <td>260</td>
+      <td>PLASTIC</td>
+      <td>42.6812</td>
+      <td>-73.81650</td>
+      <td>NWS ALBANY, NY</td>
+      <td>...</td>
+      <td>73</td>
+      <td>0</td>
+      <td>62</td>
+      <td>29.93</td>
+      <td>29.62</td>
+      <td>10.0</td>
+      <td>64</td>
+      <td>360</td>
+      <td>9</td>
+      <td>9/8/2006</td>
+    </tr>
+    <tr>
+      <th>64726</th>
+      <td>72518014735</td>
+      <td>2022-05-31T21:51:00</td>
+      <td>FM-15</td>
+      <td>7</td>
+      <td>PRECIP</td>
+      <td>260</td>
+      <td>PLASTIC</td>
+      <td>42.6812</td>
+      <td>-73.81650</td>
+      <td>NWS ALBANY, NY</td>
+      <td>...</td>
+      <td>70</td>
+      <td>0</td>
+      <td>66</td>
+      <td>29.94</td>
+      <td>29.64</td>
+      <td>10.0</td>
+      <td>63</td>
+      <td>350</td>
+      <td>7</td>
+      <td>9/8/2006</td>
+    </tr>
+    <tr>
+      <th>64727</th>
+      <td>72518014735</td>
+      <td>2022-05-31T22:51:00</td>
+      <td>FM-15</td>
+      <td>7</td>
+      <td>PRECIP</td>
+      <td>260</td>
+      <td>PLASTIC</td>
+      <td>42.6812</td>
+      <td>-73.81650</td>
+      <td>NWS ALBANY, NY</td>
+      <td>...</td>
+      <td>68</td>
+      <td>0</td>
+      <td>68</td>
+      <td>29.94</td>
+      <td>29.64</td>
+      <td>10.0</td>
+      <td>62</td>
+      <td>340</td>
+      <td>8</td>
+      <td>9/8/2006</td>
+    </tr>
+    <tr>
+      <th>64728</th>
+      <td>72518014735</td>
+      <td>2022-05-31T23:51:00</td>
+      <td>FM-15</td>
+      <td>7</td>
+      <td>PRECIP</td>
+      <td>260</td>
+      <td>PLASTIC</td>
+      <td>42.6812</td>
+      <td>-73.81650</td>
+      <td>NWS ALBANY, NY</td>
+      <td>...</td>
+      <td>66</td>
+      <td>0</td>
+      <td>70</td>
+      <td>29.95</td>
+      <td>29.64</td>
+      <td>10.0</td>
+      <td>60</td>
+      <td>320</td>
+      <td>6</td>
+      <td>9/8/2006</td>
+    </tr>
+  </tbody>
+</table>
+<p>64729 rows × 22 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-0f25c594-eb1c-4816-be4a-73f5e7f5709f')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-0f25c594-eb1c-4816-be4a-73f5e7f5709f button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-0f25c594-eb1c-4816-be4a-73f5e7f5709f');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-f3ff50c9-7c98-463f-9903-e0a4c6754269">
+  <button class="colab-df-quickchart" onclick="quickchart('df-f3ff50c9-7c98-463f-9903-e0a4c6754269')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-f3ff50c9-7c98-463f-9903-e0a4c6754269 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:320}"
+id="S4kaxq7K9KhR" data-outputId="ebd913ad-3e82-4529-98d8-91fdf1e58272">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>df1.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="13">
+
+  <div id="df-772199ae-90d8-4366-a64a-a8d928e3fff0" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>STATION</th>
+      <th>SOURCE</th>
+      <th>BackupElevation</th>
+      <th>BackupLatitude</th>
+      <th>BackupLongitude</th>
+      <th>HourlyRelativeHumidity</th>
+      <th>HourlyVisibility</th>
+      <th>HourlyWetBulbTemperature</th>
+      <th>HourlyWindSpeed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>6.472900e+04</td>
+      <td>64729.000000</td>
+      <td>64729.0</td>
+      <td>64729.000000</td>
+      <td>64729.000000</td>
+      <td>64729.000000</td>
+      <td>64729.000000</td>
+      <td>64729.000000</td>
+      <td>64729.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>7.251801e+10</td>
+      <td>6.994207</td>
+      <td>260.0</td>
+      <td>42.689775</td>
+      <td>-73.828303</td>
+      <td>66.361538</td>
+      <td>9.315017</td>
+      <td>44.324878</td>
+      <td>7.556103</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>0.000000e+00</td>
+      <td>0.075894</td>
+      <td>0.0</td>
+      <td>0.004167</td>
+      <td>0.005736</td>
+      <td>18.376979</td>
+      <td>2.128327</td>
+      <td>17.801866</td>
+      <td>5.735342</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>7.251801e+10</td>
+      <td>6.000000</td>
+      <td>260.0</td>
+      <td>42.681200</td>
+      <td>-73.831090</td>
+      <td>8.000000</td>
+      <td>0.000000</td>
+      <td>-14.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>7.251801e+10</td>
+      <td>7.000000</td>
+      <td>260.0</td>
+      <td>42.691800</td>
+      <td>-73.831090</td>
+      <td>53.000000</td>
+      <td>10.000000</td>
+      <td>31.000000</td>
+      <td>3.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>7.251801e+10</td>
+      <td>7.000000</td>
+      <td>260.0</td>
+      <td>42.691800</td>
+      <td>-73.831090</td>
+      <td>67.000000</td>
+      <td>10.000000</td>
+      <td>45.000000</td>
+      <td>7.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>7.251801e+10</td>
+      <td>7.000000</td>
+      <td>260.0</td>
+      <td>42.691800</td>
+      <td>-73.831090</td>
+      <td>81.000000</td>
+      <td>10.000000</td>
+      <td>60.000000</td>
+      <td>11.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>7.251801e+10</td>
+      <td>7.000000</td>
+      <td>260.0</td>
+      <td>42.691800</td>
+      <td>-73.816500</td>
+      <td>100.000000</td>
+      <td>99.420000</td>
+      <td>81.000000</td>
+      <td>43.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-772199ae-90d8-4366-a64a-a8d928e3fff0')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-772199ae-90d8-4366-a64a-a8d928e3fff0 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-772199ae-90d8-4366-a64a-a8d928e3fff0');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-6eebde93-4cdf-4f2b-9396-c2b3cec3a52a">
+  <button class="colab-df-quickchart" onclick="quickchart('df-6eebde93-4cdf-4f2b-9396-c2b3cec3a52a')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-6eebde93-4cdf-4f2b-9396-c2b3cec3a52a button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:300}"
+id="QaqFXIObeZOI" data-outputId="589f6611-7887-430c-c71c-4dd0f447aa5e">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>Col_DP1 <span class="op">=</span> df1[[<span class="st">&#39;DATE&#39;</span>, <span class="st">&#39;HourlyPrecipitation&#39;</span>]]</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>Col_DP1.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="17">
+
+  <div id="df-81beff03-9e87-48dc-8500-fd3048aae870" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>HourlyPrecipitation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>57424.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>0.004778</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>0.029364</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>1.370000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-81beff03-9e87-48dc-8500-fd3048aae870')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-81beff03-9e87-48dc-8500-fd3048aae870 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-81beff03-9e87-48dc-8500-fd3048aae870');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-de9647fc-6268-4051-87c3-8a1ab80794a8">
+  <button class="colab-df-quickchart" onclick="quickchart('df-de9647fc-6268-4051-87c3-8a1ab80794a8')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-de9647fc-6268-4051-87c3-8a1ab80794a8 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:532}"
+id="6VjreIgNRUzb" data-outputId="98872bf9-3567-4292-8054-d8764ca3b345">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co">#TIME SERIES PLOT FOR THE WHOLE DATA SET</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>Col_DP1 <span class="op">=</span> Col_DP1[[<span class="st">&#39;DATE&#39;</span>, <span class="st">&#39;HourlyPrecipitation&#39;</span>]]</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>Col_DP1[<span class="st">&#39;DATE&#39;</span>] <span class="op">=</span> pd.to_datetime(Col_DP1[<span class="st">&#39;DATE&#39;</span>])</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">6</span>))</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>plt.plot(Col_DP1[<span class="st">&#39;DATE&#39;</span>], Col_DP1[<span class="st">&#39;HourlyPrecipitation&#39;</span>], color<span class="op">=</span><span class="st">&#39;b&#39;</span>)</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Date&#39;</span>)</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Value&#39;</span>)</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Time Series Plot of Hourly_Precipitation&#39;</span>)</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/5b39782423e7df99d1a9a683a152f2aa24692e75.png" /></p>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="J8OBuAIeWa0U" data-outputId="1eb8df50-c5e6-40f4-a232-0be13eb6415d">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co">#TIME SERIES PLOT PER YEAR</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>Col_DP1[<span class="st">&#39;DATE&#39;</span>] <span class="op">=</span> pd.to_datetime(Col_DP1[<span class="st">&#39;DATE&#39;</span>])</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>grouped1 <span class="op">=</span> Col_DP1.groupby(Col_DP1[<span class="st">&#39;DATE&#39;</span>].dt.year)</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> year, group <span class="kw">in</span> grouped1:</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>    plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">6</span>))</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>    plt.plot(group[<span class="st">&#39;DATE&#39;</span>], group[<span class="st">&#39;HourlyPrecipitation&#39;</span>], color<span class="op">=</span><span class="st">&#39;b&#39;</span>)</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">&#39;Date&#39;</span>)</span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">&#39;Value&#39;</span>)</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f&#39;Time Series Plot of Precipitation for Year </span><span class="sc">{</span>year<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>    plt.grid(<span class="va">True</span>)</span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/c24d51a90ae935f3f0d44a74179254e618f1064c.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/524f0e4b17c2052dd86ae51cdb14aa4713c70179.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/dfa6b2e5a33a76bcf1ec3135d8ea8918a108356a.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/97c809dbf50dbb0dcb06b664f661b754f0325deb.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/46cd6b130941c48d02e26d9308d790064556dd57.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/8d510836b834df5cf9afc3aecf4b31000b65e169.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/c741f5bfa81d6307ae450583db388daf080d91a3.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/99360e721249e64dab5e28a87773643b34962d3d.png" /></p>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="6c357THsBrTN" data-outputId="40c82381-6b6e-4b5d-9c98-b10a8dc5bedf">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co">#MEAN</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>HourlyPrecipitation <span class="op">=</span> <span class="st">&quot;HourlyPrecipitation&quot;</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>df1[HourlyPrecipitation] <span class="op">=</span> pd.to_numeric(df1[HourlyPrecipitation], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>mean_value <span class="op">=</span> df1[HourlyPrecipitation].mean()</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Mean of </span><span class="sc">{</span>HourlyPrecipitation<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>mean_value<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Mean of HourlyPrecipitation: 0.004778141543605461
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="7SHK230bHiLg" data-outputId="a42b7084-2dfe-4ca3-ad5f-8dec13a1f9f5">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co">#MEDIAN</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>median_value <span class="op">=</span> df1[HourlyPrecipitation].median()</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Median of </span><span class="sc">{</span>HourlyPrecipitation<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>median_value<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Median of HourlyPrecipitation: 0.0
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="VCaW_-7ABtq4" data-outputId="0972e4f4-99be-4711-e540-8d5ef62b569f">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co">#STANDARD DEVIATION</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>std_deviation_value <span class="op">=</span> df1[HourlyPrecipitation].std()</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Standard Deviation of </span><span class="sc">{</span>HourlyPrecipitation<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>std_deviation_value<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Standard Deviation of HourlyPrecipitation: 0.029363913362486695
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="Cc5Ck-MPNW_I">
+<h1>WEEKLY</h1>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:424}"
+id="YSvZZT8J4uBY" data-outputId="1d84e204-9201-4188-f772-8822b387a669">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>df2 <span class="op">=</span> pd.read_csv(<span class="st">&#39;/content/WEEKLY_NEW.csv&#39;</span>)</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>df2</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+
+  <div id="df-42b26594-653f-4f66-8be5-fb6a88b580c1" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>DATE</th>
+      <th>WeeklyPrecipitation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2015-01-07</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2015-01-14</td>
+      <td>0.122143</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2015-01-21</td>
+      <td>0.038571</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2015-01-28</td>
+      <td>0.086429</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2015-02-04</td>
+      <td>0.046429</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>379</th>
+      <td>2022-04-27</td>
+      <td>0.120000</td>
+    </tr>
+    <tr>
+      <th>380</th>
+      <td>2022-05-04</td>
+      <td>0.061429</td>
+    </tr>
+    <tr>
+      <th>381</th>
+      <td>2022-05-11</td>
+      <td>0.005714</td>
+    </tr>
+    <tr>
+      <th>382</th>
+      <td>2022-05-18</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>383</th>
+      <td>2022-05-25</td>
+      <td>0.000000</td>
+    </tr>
+  </tbody>
+</table>
+<p>384 rows × 2 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-42b26594-653f-4f66-8be5-fb6a88b580c1')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-42b26594-653f-4f66-8be5-fb6a88b580c1 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-42b26594-653f-4f66-8be5-fb6a88b580c1');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-a180e357-9713-4691-9389-10d8afde02e6">
+  <button class="colab-df-quickchart" onclick="quickchart('df-a180e357-9713-4691-9389-10d8afde02e6')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-a180e357-9713-4691-9389-10d8afde02e6 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:300}"
+id="5kL8XCAh5LjI" data-outputId="046cb2a2-55c2-402b-ee83-705d6a36d49e">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>df2.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+
+  <div id="df-16a5bf6c-2cc4-4607-a7b1-5f3acfed2641" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>WeeklyPrecipitation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>384.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>0.111365</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>0.104957</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>0.034107</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>0.089286</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>0.160357</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>0.647143</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-16a5bf6c-2cc4-4607-a7b1-5f3acfed2641')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-16a5bf6c-2cc4-4607-a7b1-5f3acfed2641 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-16a5bf6c-2cc4-4607-a7b1-5f3acfed2641');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-d1815620-afeb-4c88-b1ba-3a052ad9bce6">
+  <button class="colab-df-quickchart" onclick="quickchart('df-d1815620-afeb-4c88-b1ba-3a052ad9bce6')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-d1815620-afeb-4c88-b1ba-3a052ad9bce6 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:564}"
+id="-HFMh0aS6F_z" data-outputId="ef528630-96a8-4611-945e-51e3315c3edf">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Plotting Weekly Precipitation</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">6</span>))</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>plt.bar(df2.DATE, df2.WeeklyPrecipitation)</span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;DATE&#39;</span>)</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;WeeklyPrecipitation&#39;</span>)</span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;WeeklyPrecipitation Over Time&#39;</span>)</span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/c2fb58fc8b7db73b4b00269c88e634eed4b43245.png" /></p>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:300}"
+id="UI0LhY5Sg5jL" data-outputId="b722479e-99f1-4de7-ad02-f7eac693b379">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>Col_DP2 <span class="op">=</span> df2[[<span class="st">&#39;DATE&#39;</span>, <span class="st">&#39;WeeklyPrecipitation&#39;</span>]]</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>Col_DP2.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="15">
+
+  <div id="df-e21d585e-da1e-49ef-82da-b83c121a0187" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>WeeklyPrecipitation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>384.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>0.111365</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>0.104957</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>0.034107</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>0.089286</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>0.160357</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>0.647143</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-e21d585e-da1e-49ef-82da-b83c121a0187')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-e21d585e-da1e-49ef-82da-b83c121a0187 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-e21d585e-da1e-49ef-82da-b83c121a0187');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-2fa085db-b546-4f1f-83e1-a32ef320c215">
+  <button class="colab-df-quickchart" onclick="quickchart('df-2fa085db-b546-4f1f-83e1-a32ef320c215')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-2fa085db-b546-4f1f-83e1-a32ef320c215 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:564}"
+id="PUoY-g5KgnN2" data-outputId="ebe11661-7eb5-4c14-eaf7-4f81f58435e0">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co">#TIME SERIES PLOT FOR THE WHOLE DATA SET</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>Col_DP2 <span class="op">=</span> Col_DP2[[<span class="st">&#39;DATE&#39;</span>, <span class="st">&#39;WeeklyPrecipitation&#39;</span>]]</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>Col_DP2[<span class="st">&#39;DATE&#39;</span>] <span class="op">=</span> pd.to_datetime(Col_DP2[<span class="st">&#39;DATE&#39;</span>])</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">6</span>))</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>plt.plot(Col_DP2[<span class="st">&#39;DATE&#39;</span>], Col_DP2[<span class="st">&#39;WeeklyPrecipitation&#39;</span>], color<span class="op">=</span><span class="st">&#39;b&#39;</span>)</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Date&#39;</span>)</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Value&#39;</span>)</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Time Series Plot of Weekly_Precipitation&#39;</span>)</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/69065df312149120c8dbc03d14930a8bea5ba9b9.png" /></p>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="AwfjhsKygnli" data-outputId="1c2d3b29-998f-4a23-a060-f8fecaf7b6d1">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co">#TIME SERIES PLOT PER YEAR</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>Col_DP2[<span class="st">&#39;DATE&#39;</span>] <span class="op">=</span> pd.to_datetime(Col_DP2[<span class="st">&#39;DATE&#39;</span>])</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>grouped1 <span class="op">=</span> Col_DP2.groupby(Col_DP2[<span class="st">&#39;DATE&#39;</span>].dt.year)</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> year, group <span class="kw">in</span> grouped1:</span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>    plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">6</span>))</span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>    plt.plot(group[<span class="st">&#39;DATE&#39;</span>], group[<span class="st">&#39;WeeklyPrecipitation&#39;</span>], color<span class="op">=</span><span class="st">&#39;b&#39;</span>)</span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">&#39;Date&#39;</span>)</span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">&#39;Value&#39;</span>)</span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f&#39;Time Series Plot of Precipitation for Year </span><span class="sc">{</span>year<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a>    plt.grid(<span class="va">True</span>)</span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/8bb7737433dcea9866fd0eec48457cf75c1b7970.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/d4cc391adce524733282fbd974ad4b7b64ff09a1.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/2cbb3bc36312fc3aabea6c7c6b7db5ec1fd0eda6.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/537a9c5b8407fb242bf245356996ae52aa5b9fc3.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/4ac6b1b3fedfeb79186656a9bfcdce518d874fe6.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/260d5a75585d66eef8e8081995bd2b3b4d24e9fe.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/04bd345e54f48e22d5345581cdd7ed74418fdbef.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b273f0b52bb4459aa7f4aa8f06d038f6/f51a0198d785ca6e24df4c8f876a82989ce68b85.png" /></p>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="J1XDkHdV6NEb" data-outputId="a170c7b8-ad4b-4541-a22e-819d3da9f877">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="co">#MEAN</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>WeeklyPrecipitation <span class="op">=</span> <span class="st">&quot;WeeklyPrecipitation&quot;</span></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>mean_value <span class="op">=</span> df2[WeeklyPrecipitation].mean()</span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Mean of </span><span class="sc">{</span>WeeklyPrecipitation<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>mean_value<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Mean of WeeklyPrecipitation: 0.11136532736979166
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="JrfaNnlXICGp" data-outputId="3be9afe7-eabe-4153-e251-6d744ccf237c">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co">#MEDIAN</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>median_value <span class="op">=</span> df2[WeeklyPrecipitation].median()</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Median of </span><span class="sc">{</span>WeeklyPrecipitation<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>median_value<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Median of WeeklyPrecipitation: 0.089285714
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="WSby5GiUICyJ" data-outputId="8138c2fd-9049-4ecf-a937-3d097cd982d1">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co">#STANDARD DEVIATION</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>std_deviation_value <span class="op">=</span> df2[WeeklyPrecipitation].std()</span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Standard Deviation of </span><span class="sc">{</span>WeeklyPrecipitation<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>std_deviation_value<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Standard Deviation of WeeklyPrecipitation: 0.10495684287991196
+</code></pre>
+</div>
+</div>
+</body>
+</html>
